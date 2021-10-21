@@ -19,7 +19,7 @@ void main()
     printf("\nenter your height in centimeters");
     scanf("%f",pt_height);
 
-    printf("\n gender= %c birth month= %d height= %f",*pt_gender,*pt_month,pt_height);
+    printf("\n gender= %c birth month= %d height= %f",*pt_gender,*pt_month,*pt_height);
 
 
 }
