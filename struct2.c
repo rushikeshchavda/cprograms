@@ -1,6 +1,6 @@
 #include<stdio.h>
 #define SIZE 32
-#define total_movies 1
+#define total_movies 5
 
 struct movies
 {
@@ -25,7 +25,7 @@ void main()
     for (position=0;position<total_movies;position++)    
     printf("\nMOVIE NAME=%s  duration=%d",b1.movie_name,b1.duration);
 
-    for(old_position=0;old_position<2;old_position++)
+    for(old_position=0;old_position<5;old_position++)
     {
         if (new_position>old_position)
         {
